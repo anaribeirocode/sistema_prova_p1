@@ -17,6 +17,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('nome', models.CharField(max_length=100)),
                 ('descricao', models.CharField(choices=[('Romance', 'ROMANCE'), ('Aventura', 'AVENTURA'), ('Ação', 'AÇÃO'), ('Fantasia', 'FANTASIA'), ('Terror', 'TERROR'), ('Clássicos', 'CLÁSSICOS')], max_length=10)),
+                ('data_entrada_sistema', models.DateField(auto_now=False, auto_now_add=False)),
             ],
         ),
     ]
