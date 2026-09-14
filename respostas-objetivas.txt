@@ -1,0 +1,11 @@
+1. Letra B Application Programming Interface 
+2. Letra D Cada requisição do cliente para o servidor deve conter todas as 
+informações necessárias, sem armazenar contexto entre as chamadas.
+3. Letra E PATCH 
+4. Letra C 401 Unauthorized
+5. Letra A git init
+6. Letra A MTV (Model, Template, View)
+7. Letra C python manage.py startapp tarefas
+8. Letra E urls.py
+9. Letra B python manage.py migrate
+10. Letra C JsonResponse
